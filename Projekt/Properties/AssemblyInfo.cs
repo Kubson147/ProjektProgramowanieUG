@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Ogólne informacje o zestawie są kontrolowane poprzez następujący 
 // zestaw atrybutów. Zmień wartości tych atrybutów, aby zmodyfikować informacje
 // powiązane z zestawem.
-[assembly: AssemblyTitle("ProjektProgramowanieJakubDolecki")]
+[assembly: AssemblyTitle("Projekt")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ProjektProgramowanieJakubDolecki")]
+[assembly: AssemblyProduct("Projekt")]
 [assembly: AssemblyCopyright("Copyright ©  2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Następujący identyfikator GUID jest identyfikatorem biblioteki typów w przypadku udostępnienia tego projektu w modelu COM
-[assembly: Guid("f8b17492-c827-4a49-9f7f-ce53f5ff7050")]
+[assembly: Guid("63207337-a909-4921-aaac-3d94a77e404b")]
 
 // Informacje o wersji zestawu zawierają następujące cztery wartości:
 //

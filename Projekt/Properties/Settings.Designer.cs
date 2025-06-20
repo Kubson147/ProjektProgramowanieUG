@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProjektProgramowanieJakubDolecki.Properties
+namespace Projekt.Properties
 {
 
 

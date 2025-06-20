@@ -1,4 +1,4 @@
-﻿namespace ProjektProgramowanieJakubDolecki
+﻿namespace Projekt
 {
     partial class Form1
     {
