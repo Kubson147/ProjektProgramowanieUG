@@ -16,5 +16,15 @@ namespace Projekt
         {
             InitializeComponent();
         }
+
+        private void lblTemperatura_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblNazwaMiasta_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
