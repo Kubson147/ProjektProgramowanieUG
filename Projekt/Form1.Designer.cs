@@ -2,15 +2,11 @@
 {
     partial class Form1
     {
-        /// <summary>
-        /// Wymagana zmienna projektanta.
-        /// </summary>
+        
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Wyczyść wszystkie używane zasoby.
-        /// </summary>
-        /// <param name="disposing">prawda, jeżeli zarządzane zasoby powinny zostać zlikwidowane; Fałsz w przeciwnym wypadku.</param>
+        
+        /// <param name="disposing"></param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,10 +18,7 @@
 
         #region Kod generowany przez Projektanta formularzy systemu Windows
 
-        /// <summary>
-        /// Metoda wymagana do obsługi projektanta — nie należy modyfikować
-        /// jej zawartości w edytorze kodu.
-        /// </summary>
+        
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
@@ -39,9 +32,7 @@
             this.lblStatus = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picIkonaPogody)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
+            
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 25);
@@ -49,17 +40,13 @@
             this.label1.Size = new System.Drawing.Size(290, 46);
             this.label1.TabIndex = 0;
             this.label1.Text = "Wpisz miasto:";
-            // 
-            // txtMiasto
-            // 
+            
             this.txtMiasto.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20F);
             this.txtMiasto.Location = new System.Drawing.Point(317, 25);
             this.txtMiasto.Name = "txtMiasto";
             this.txtMiasto.Size = new System.Drawing.Size(366, 54);
             this.txtMiasto.TabIndex = 1;
-            // 
-            // btnSprawdzPogode
-            // 
+           
             this.btnSprawdzPogode.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnSprawdzPogode.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnSprawdzPogode.FlatAppearance.BorderSize = 0;
@@ -70,9 +57,8 @@
             this.btnSprawdzPogode.TabIndex = 2;
             this.btnSprawdzPogode.Text = "Sprawdź pogodę ->";
             this.btnSprawdzPogode.UseVisualStyleBackColor = false;
-            // 
-            // picIkonaPogody
-            // 
+            this.btnSprawdzPogode.Click += new System.EventHandler(this.btnSprawdzPogode_Click);
+            
             this.picIkonaPogody.BackColor = System.Drawing.Color.Transparent;
             this.picIkonaPogody.Location = new System.Drawing.Point(297, 225);
             this.picIkonaPogody.Name = "picIkonaPogody";
@@ -80,31 +66,23 @@
             this.picIkonaPogody.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picIkonaPogody.TabIndex = 3;
             this.picIkonaPogody.TabStop = false;
-            // 
-            // lblNazwaMiasta
-            // 
+           
             this.lblNazwaMiasta.AutoSize = true;
             this.lblNazwaMiasta.Font = new System.Drawing.Font("Arial Rounded MT Bold", 25F);
-            this.lblNazwaMiasta.Location = new System.Drawing.Point(663, 119);
+            this.lblNazwaMiasta.Location = new System.Drawing.Point(613, 115);
             this.lblNazwaMiasta.Name = "lblNazwaMiasta";
             this.lblNazwaMiasta.Size = new System.Drawing.Size(186, 58);
             this.lblNazwaMiasta.TabIndex = 4;
             this.lblNazwaMiasta.Text = "Miasto";
-            this.lblNazwaMiasta.Click += new System.EventHandler(this.lblNazwaMiasta_Click);
-            // 
-            // lblTemperatura
-            // 
+            
             this.lblTemperatura.AutoSize = true;
             this.lblTemperatura.Font = new System.Drawing.Font("Arial Rounded MT Bold", 50F);
-            this.lblTemperatura.Location = new System.Drawing.Point(904, 318);
+            this.lblTemperatura.Location = new System.Drawing.Point(874, 318);
             this.lblTemperatura.Name = "lblTemperatura";
             this.lblTemperatura.Size = new System.Drawing.Size(163, 116);
             this.lblTemperatura.TabIndex = 5;
             this.lblTemperatura.Text = "°C";
-            this.lblTemperatura.Click += new System.EventHandler(this.lblTemperatura_Click);
-            // 
-            // lblWarunki
-            // 
+            
             this.lblWarunki.AutoSize = true;
             this.lblWarunki.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20F);
             this.lblWarunki.Location = new System.Drawing.Point(886, 500);
@@ -112,29 +90,24 @@
             this.lblWarunki.Size = new System.Drawing.Size(182, 46);
             this.lblWarunki.TabIndex = 6;
             this.lblWarunki.Text = "Warunki";
-            // 
-            // lblSzczegoly
-            // 
+            
             this.lblSzczegoly.AutoSize = true;
             this.lblSzczegoly.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20F);
-            this.lblSzczegoly.Location = new System.Drawing.Point(652, 726);
+            this.lblSzczegoly.Location = new System.Drawing.Point(603, 728);
             this.lblSzczegoly.Name = "lblSzczegoly";
             this.lblSzczegoly.Size = new System.Drawing.Size(212, 46);
             this.lblSzczegoly.TabIndex = 7;
             this.lblSzczegoly.Text = "szczegóły";
-            // 
-            // lblStatus
-            // 
+            
             this.lblStatus.AutoSize = true;
             this.lblStatus.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15F);
+            this.lblStatus.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.lblStatus.Location = new System.Drawing.Point(1101, 949);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(421, 34);
             this.lblStatus.TabIndex = 8;
             this.lblStatus.Text = "Status: Czekam na miasto...";
-            // 
-            // Form1
-            // 
+            
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
